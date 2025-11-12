@@ -6,11 +6,11 @@
       "use": "@vercel/static"
     },
     {
-      "src": "style/*.css", 
+      "src": "style.css", 
       "use": "@vercel/static"
     }, 
     {
-      "src": "script/*.js", 
+      "src": "script.js", 
       "use": "@vercel/static"
     }, 
     {
@@ -42,6 +42,14 @@
     {
       "src": "/biografi",
       "dest": "biografi.html"
+    },
+    {
+      "src": "/script",
+      "dest": "script.js"
+    },
+    {
+      "src": "/style",
+      "dest": "style.css"
     },
     {
       "src": "/creatorprof",
