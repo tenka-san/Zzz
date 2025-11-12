@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "biografi.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "creatorprof.html",
+      "use": "@vercel/static"
+    }, 
+    {
+      "src": "mentors.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "games.html",
+      "use": "@vercel/static"
+    }, 
+    {
+      "src": "video.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "index.html"
+    },
+    {
+      "src": "/biografi",
+      "dest": "biografi.html"
+    },
+    {
+      "src": "/creatorprof",
+      "dest": "creatorprof.html"
+    }, 
+    {
+      "src": "/mentors",
+      "dest": "mentors.html"
+    },
+    {
+      "src": "/games",
+      "dest": "games.html"
+    }, 
+    {
+      "src": "/video",
+      "dest": "video.html"
+    }
+  ]
+}
