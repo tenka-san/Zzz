@@ -18,7 +18,7 @@ function creators() {
     window.location.href = "/creatorprof"
 }
 
-function mentor() {
+function mentors() {
     window.location.href = "/mentors"
 }
 
