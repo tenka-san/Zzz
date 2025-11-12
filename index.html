@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://files.catbox.moe/xwdter.jpg" rel="icon" type="image/webp">
+    <title>Jejak kisah</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-home"></i>
+                Home page
+            </div>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="music-controls">
+                    <button id="play-pause-btn" class="music-btn">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="profile-circle">
+                <img src="https://files.catbox.moe/xwdter.jpg" alt="Profile" id="profile-img">
+            </div>
+            <h1 class="developer-name">Jejak Kisah</h1>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Selamat datang di Jejak Kisah</h2>
+            <p class="about-text">
+                sebuah ruang digital yang menghadirkan perjalanan sejarah, biografi, dan warisan intelektual para ilmuwan Muslim yang telah memberi cahaya bagi peradaban dunia.
+              
+                Di sini, Anda dapat menelusuri kisah-kisah penuh inspirasi dari para tokoh besar yang berkontribusi dalam ilmu pengetahuan. Setiap kisah bukan hanya catatan masa lalu, tetapi juga sumber motivasi untuk generasi kini dan mendatang.
+                
+                Mari bersama-sama menapaktilasi jejak mereka, memahami kontribusi berharga, dan mengambil hikmah dari perjuangan serta pemikiran cemerlang para ilmuwan Muslim.
+            </p>
+            <div class="container">
+                <h2 class="section-title">Select a button</h2>
+                <div class="contact-cards">
+                    <div class="contact-card custom-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>Biografi</h3>
+                        <p>Berisi biografi</p>
+                        <button onclick="bio()" class="contact-btn">
+                            Biografi
+                        </button>
+                    </div>
+                    <div class="contact-card custom-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <h3>Video</h3>
+                        <p>Berisi video tentang kami</p>
+                        <button onclick="video()" class="contact-btn">
+                            Video
+                        </button>
+                    </div>
+                    <div class="contact-card custom-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>Games</h3>
+                        <p>Berisi permainan yang kita buat</p>
+                        <button onclick="game()" class="contact-btn">
+                            Games
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Supported By</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://files.catbox.moe/g6ywea.jpeg" alt="Universitas PTIQ Jakarta">
+                    </div>
+                    <div class="project-info">
+                        <h3>Universitas PTIQ Jakarta</h3>
+                        <p>Universitas PTIQ Jakarta merupakan perguruan tinggi Islam yang melaksanakan Tri Dharma Perguruan Tinggi (Pengajaran, Penelitian dan Pengabdian Masyarakat) dengan berbasis Al-Qur’an.
+                        </p>
+                        <div class="project-tech">
+                            <button class="contact-btn">
+                                <a href="https://instagram.com/@ptiq_jkt" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </button>
+                            <button class="contact-btn">
+                                <a href="https://wa.me/62217690901" target="_blank">
+                                    <i class="fas fa-phone"></i>
+                                    Telepon
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="thanks" id="thanks">
+        <div class="container">
+            <h2 class="section-title">Special Thanks</h2>
+            <div class="thanks-content">
+                <p>I would like to express my gratitude to all the amazing people who have supported my journey:</p>
+                <div class="thanks-list">
+                    <button onclick="mentors()" class="thanks-item">
+                        <i class="fas fa-user-tie"></i>
+                        <span>My Teachers/Mentors</span>
+                    </button>
+                    <button onclick="creators()" class="thanks-item">
+                        <i class="fas fa-users"></i>
+                        <span>Creators</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Team jejak kisah</h3>
+                </div>
+                <div class="footer-center">
+                    <div class="social-links">
+                        <a href="mailto:jejakkisah7@gmail"><i class="fas fa-envelope"></i></a>
+                        <a href="https://wa.me/6285295392384"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://t.me/YuukeyD7eppeli"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <p>&copy; Team jejak kisah</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <audio id="background-music" loop>
+        <source src="https://files.catbox.moe/1k3t32.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
